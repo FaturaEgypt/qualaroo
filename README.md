@@ -1,0 +1,2 @@
+# qualaroo
+qualaroo plugin 
