@@ -6,7 +6,6 @@
 -keep class io.flutter.view.**  { *; }
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
--keep public class com.qualaroo.internal.model.** {
-    private *;
-    <init>(...);
+-keep public class com.qualaroo.** {
+  *;
 }
