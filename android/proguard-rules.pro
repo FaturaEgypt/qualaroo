@@ -22,3 +22,7 @@
 -allowaccessmodification
 -useuniqueclassmembernames
 -keeppackagenames doNotKeepAThing
+
+-allowaccessmodification
+-useuniqueclassmembernames
+-keeppackagenames doNotKeepAThing

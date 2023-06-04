@@ -13,6 +13,8 @@ class Constants {
 
         var USER_AREA = "userArea";
 
+        var USER_GOVERNORATE = "governorate";
+
         var IndustryID = "industryId";
 
         var UserPhoneNumber = "userPhoneNumber";

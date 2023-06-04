@@ -59,6 +59,9 @@ class QualarooPlugin : FlutterPlugin, MethodCallHandler {
             metaData?.get(Constants.UserPhoneNumber)?.let {
                 Qualaroo.getInstance().setUserProperty(Constants.UserPhoneNumber, it.toString())
             }
+            metaData?.get(Constants.USER_GOVERNORATE)?.let {
+                Qualaroo.getInstance().setUserProperty(Constants.USER_GOVERNORATE, it.toString())
+            }
 
 
 
